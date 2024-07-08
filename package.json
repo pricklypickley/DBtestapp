@@ -1,18 +1,14 @@
 {
-  "name": "nodejs",
+  "name": "mongodb-app",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Node.js application with MongoDB integration",
+  "main": "index.js", // Ensure this points to your main application file
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js" // Ensure this command starts your application correctly
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "@types/node": "^18.0.6",
-    "csv-parser": "^3.0.0",
-    "express": "^4.19.2",
-    "mongodb": "^6.8.0"
+    "express": "^4.17.1",
+    "mongodb": "^4.5.0"
+    // Add other dependencies as needed
   }
 }
