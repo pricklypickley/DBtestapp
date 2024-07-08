@@ -2,13 +2,12 @@
   "name": "mongodb-app",
   "version": "1.0.0",
   "description": "Node.js application with MongoDB integration",
-  "main": "index.js", // Ensure this points to your main application file
+  "main": "index.js",
   "scripts": {
-    "start": "node index.js" // Ensure this command starts your application correctly
+    "start": "node index.js"
   },
   "dependencies": {
     "express": "^4.17.1",
     "mongodb": "^4.5.0"
-    // Add other dependencies as needed
   }
 }
